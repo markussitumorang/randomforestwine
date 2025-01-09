@@ -1,2 +1,6 @@
-# randomforestwine
-Mengklasifikasikan kualitas wine berdasarkan parameter kimia menggunakan algoritma Random Forest
+# Latar Belakang
+Kualitas wine merupakan faktor penting yang memengaruhi harga dan penerimaan pasar. Penilaian kualitas secara manual membutuhkan waktu dan subyektif, sehingga diperlukan metode otomatis yang lebih cepat dan akurat. Dengan memanfaatkan dataset Wine Quality dari UCI Machine Learning Repository, penelitian ini menggunakan algoritme Random Forest untuk mengklasifikasikan kualitas wine berdasarkan atribut kimia, membantu produsen dalam meningkatkan efisiensi penilaian kualitas.
+# Tujuan
+Penelitian ini bertujuan untuk mengembangkan model klasifikasi kualitas wine menggunakan algoritme Random Forest berdasarkan atribut kimia seperti pH, kadar alkohol, dan asam. Model ini diharapkan dapat memberikan manfaat bagi produsen wine dalam meningkatkan efisiensi dan akurasi penilaian kualitas secara otomatis, mengurangi ketergantungan pada metode manual, serta membantu pengambilan keputusan untuk menjaga konsistensi kualitas produk.
+# Kesimpulan
+Model Random Forest berhasil memprediksi kualitas anggur dengan akurasi terbaik 80.92% setelah tuning dengan GridSearchCV. Fitur "alcohol" paling berpengaruh, diikuti oleh "volatile_acidity" dan "density." SMOTE menyeimbangkan data target tanpa signifikan meningkatkan akurasi, menunjukkan Random Forest andal untuk klasifikasi kualitas produk.
